@@ -5,7 +5,7 @@ using namespace std;
 
 extern void(sum_if_palindrome(int integers[], int length));
 
-main()
+int main()
 {
 int arraySize = 0;
 
