@@ -21,6 +21,7 @@ void print_summed(int array1[3][3],int array2[3][3])
         {
                 cout << summed[i][j] << " " ;
         }
+        cout << summed[i][2];
         cout << endl ;
         
     }
