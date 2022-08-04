@@ -19,7 +19,7 @@ void print_summed(int array1[3][3],int array2[3][3])
     {
         for(int j = 0; j < 3; j++)
         {
-                cout << summed[i][j] << " " ;
+                cout << summed[i][j] ;
         }
         cout << endl ;
         
