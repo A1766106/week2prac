@@ -12,12 +12,16 @@ void print_binary_str(std::string decimal_number)
         cout << "This number is invalid as it is less than 1. " << endl;
         return;
     }
-    while(processingNumber > 0)
+
+    int remainder = 0;
+    int designatorNumber = 1;
+    while(processingNumber != 0)
     {
-        convertedNumber = processingNumber % 2;
+        remainder = processingNumber % 2;
         processingNumber /= 2;
-        cout << convertedNumber;
+        convertedNumber += remainder * designatorNumber;
+        designatorNumber *= 10;
     }
-    cout << endl;
+    cout << convertedNumber << endl;
 
 }
