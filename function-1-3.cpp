@@ -3,12 +3,12 @@
 
 using namespace std;
 
-void count_digits(int array[10][10])
+void count_digits(int array[4][4])
 {
     int tallyOfNumbers[10] = {0};
-    for(int i=0; i < 10; i++)
+    for(int i=0; i < 4; i++)
     {
-        for(int j=0; j < 10; j++)
+        for(int j=0; j < 4; j++)
         {
             tallyOfNumbers[array[i][j]]++;
         }
