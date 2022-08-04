@@ -15,10 +15,11 @@ void print_scaled(int array[3][3],int scale)
     }
     for(int i = 0; i < 3; i++)
     {
-        for(int j = 0; j < 3; j++)
+        for(int j = 0; j < 2; j++)
         {
             cout << scaledNumbers[i][j] << " " ;
         }
+        cout << scaledNumbers[i][2] ;
         cout << endl ;
     }
     
